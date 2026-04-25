@@ -28,19 +28,28 @@ The assignment is divided into two primary execution tiers:
 
 ## Setup and Installation
 
-1. Ensure you have Python 3.14+ and UV installed 
-2. Create Venv Using uv:
+Ensure you have Python 3.14+ and UV installed. Clone Repo
+using ssh
+```bash
+git clone git@github.com:yasshrai/riscv-isa-manual-utility.git
+```
+or using https 
+```bash
+git clone https://github.com/yasshrai/riscv-isa-manual-utility.git
+```
+Create Venv Using uv:
 ```bash
 uv venv
 ```
-3. Activate the virtual environment:
+Activate the virtual environment:
 ```bash
 source .venv/bin/activate
 ```
-4. Install the necessary dependencies:
+Install the necessary dependencies:
 ```bash
 uv sync
 ```
+
 ## Usage
 
 Run the main script to see the tier 1 and tier 2 output:
