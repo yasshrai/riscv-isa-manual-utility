@@ -28,18 +28,19 @@ The assignment is divided into two primary execution tiers:
 
 ## Setup and Installation
 
-1. Ensure you have Python 3.14+ installed (as specified in `pyproject.toml`).
-2. Activate the virtual environment:
-   ```bash
-   source .venv/bin/activate
-   ```
-3. Install the necessary dependencies:
-   ```bash
-   uv pip install -e .
-   # or alternatively if using pip
-   pip install pytest
-   ```
-
+1. Ensure you have Python 3.14+ and UV installed 
+2. Create Venv Using uv:
+```bash
+uv venv
+```
+3. Activate the virtual environment:
+```bash
+source .venv/bin/activate
+```
+4. Install the necessary dependencies:
+```bash
+uv sync
+```
 ## Usage
 
 Run the main script to see the tier 1 and tier 2 output:
