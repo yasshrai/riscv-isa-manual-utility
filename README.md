@@ -28,7 +28,8 @@ The assignment is divided into two primary execution tiers:
 
 ## Setup and Installation
 
-Ensure you have Python 3.14+ and UV installed. Clone Repo
+Ensure that **Python 3.14 or later** and **uv** are installed on your system.
+
 using ssh
 ```bash
 git clone git@github.com:yasshrai/riscv-isa-manual-utility.git
@@ -37,15 +38,19 @@ or using https
 ```bash
 git clone https://github.com/yasshrai/riscv-isa-manual-utility.git
 ```
-Create Venv Using uv:
+Navigate to the Project Directory
+```bash
+cd riscv-isa-manual-utility.git
+```
+Create a Virtual Environment
 ```bash
 uv venv
 ```
-Activate the virtual environment:
+Activate the Virtual Environment
 ```bash
 source .venv/bin/activate
 ```
-Install the necessary dependencies:
+Install Dependencies
 ```bash
 uv sync
 ```
