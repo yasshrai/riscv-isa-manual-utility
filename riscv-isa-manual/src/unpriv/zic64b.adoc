@@ -1,0 +1,5 @@
+[[ext:zic64b]]
+=== ext:zic64b[] Extension for 64-byte Cache Blocks
+
+If the ext:zic64b[] extension is implemented, then cache blocks must be
+64 bytes in size, naturally aligned in the address space.
