@@ -40,7 +40,7 @@ git clone https://github.com/yasshrai/riscv-isa-manual-utility.git
 ```
 Navigate to the Project Directory
 ```bash
-cd riscv-isa-manual-utility.git
+cd riscv-isa-manual-utility
 ```
 Create a Virtual Environment
 ```bash
